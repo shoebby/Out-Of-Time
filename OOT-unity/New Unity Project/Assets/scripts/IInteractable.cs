@@ -1,4 +1,10 @@
-﻿public interface IInteractable
+﻿using UnityEngine.Events;
+
+public interface IInteractable
 {
-    void Interact(Interactor interactor);
+    string InteractionPrompt { get; }
+
+    UnityEvent OnInteract { get; }
+
+    bool Interact(Interactor interactor);
 }

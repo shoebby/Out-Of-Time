@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/scenes/main menu.unity
     guid: 1a89ae11af1b0e247b333d6ca0199ed0
   - enabled: 1
-    path: Assets/scenes/OOT-main.unity
+    path: Assets/scenes/day1.unity
     guid: 697cf11d4e588d74fb9b97be40160725
+  - enabled: 1
+    path: Assets/scenes/day2.unity
+    guid: 4fec8bcb1f62fac4c95e31edd3b6eafe
+  - enabled: 1
+    path: Assets/scenes/day6.unity
+    guid: ec6bddc5a74d76d4b82f836aa0dfec60
+  - enabled: 1
+    path: Assets/scenes/day43.unity
+    guid: 84d15cd5112b7f949aeba2c6140dd3e1
+  - enabled: 1
+    path: Assets/scenes/day179.unity
+    guid: 340f70d1d35b8b04ba3a9144fbce90ed
+  - enabled: 1
+    path: Assets/scenes/day501.unity
+    guid: e73f72158a9d96843b0165029ea9f7f8
+  - enabled: 1
+    path: Assets/scenes/day1312.unity
+    guid: 5af8c21d651e12b418017d862d611c1d
   m_configObjects: {}

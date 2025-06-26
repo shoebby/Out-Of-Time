@@ -1,25 +1,36 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
-public class EventsManager : MonoBehaviour
+public class EventsManager : Singleton<EventsManager>
 {
+    [SerializeField] private TextMeshProUGUI currentTaskTMP;
+    [SerializeField] private AudioClip taskCompletedClip;
     [SerializeField] private GameObject[] volumes;
+    [SerializeField] private string firstTask;
 
-    private void Awake()
+    private int activeTask;
+
+
+    protected override void Awake()
     {
+        base.Awake();
         for (int i = 0; i < volumes.Length; i++)
             volumes[i].SetActive(false);
 
-        volumes[0].SetActive(true);
+        activeTask = 0;
+        volumes[activeTask].SetActive(true);
     }
 
-    void Start()
+    private void Start()
     {
-        
+        currentTaskTMP.text = firstTask;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void NextTask()
     {
-        
+        volumes[activeTask].SetActive(false);
+        activeTask += 1;
+        volumes[activeTask].SetActive(true);
+        AudioManager.Instance.PlaySFX(taskCompletedClip);
     }
 }

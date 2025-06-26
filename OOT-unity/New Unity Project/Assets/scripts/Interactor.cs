@@ -24,14 +24,26 @@ public class Interactor : MonoBehaviour
 
             if (interactible != null)
             {
+                CanvasController.Instance.interactionPrompt_text.text = interactible.InteractionPrompt;
+                if (!CanvasController.Instance.interactionPrompt.activeSelf)
+                {
+                    CanvasController.Instance.ToggleElement(CanvasController.Instance.interactionPrompt);
+                }
                 if (Input.GetKeyDown(interactKey))
+                {
                     interactible.Interact(this);
+                }
+                    
             }
         }
         else
         {
             if (interactible != null)
+            {
+                CanvasController.Instance.ToggleElement(CanvasController.Instance.interactionPrompt);
                 interactible = null;
+            }
+                
         }
     }
 
