@@ -10,9 +10,11 @@ public class ConsoleLogger : Singleton<ConsoleLogger>
     [SerializeField] private string startLog;
     [SerializeField] private Texture2D logBackground;
     [SerializeField] private Font logFont;
+
     private float log_ypos = 1030;
     private float log_height = 50;
     private int fontSize = 20;
+
     private Color fontColor;
 
     void Start()

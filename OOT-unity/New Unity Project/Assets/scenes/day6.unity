@@ -30819,7 +30819,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -37718,10 +37718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startLog: variable 'spr_letterbox' hasn't been assigned
   logBackground: {fileID: 2800000, guid: a66ebf6d9f60b264fa920ca24cf8e69f, type: 3}
-  log_ypos: 585
-  log_height: 31
   logFont: {fileID: 12800000, guid: 316ab14a76d443244bb7a0c34e1b296a, type: 3}
-  fontSize: 12
 --- !u!4 &1595756114
 Transform:
   m_ObjectHideFlags: 0
@@ -48042,9 +48039,10 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   officeSounds: {fileID: 8300000, guid: 0f94b169287f5b749800a1e853203cfe, type: 3}
-  eveningSong: {fileID: 8300000, guid: 2c51462b6a74b05458f843a447526959, type: 3}
+  eveningSong: {fileID: 8300000, guid: 441e0a7f2616a6047b564fcaad577d79, type: 3}
   maincam_quad: {fileID: 356707272}
   maincam_evening: {fileID: 2100000, guid: f0e0e6d049e9dcb4a84d7d8f7d8a1d96, type: 2}
+  loop: 0
 --- !u!1 &1939465131
 GameObject:
   m_ObjectHideFlags: 0

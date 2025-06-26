@@ -55152,7 +55152,7 @@ MonoBehaviour:
   eveningSong: {fileID: 8300000, guid: 2c51462b6a74b05458f843a447526959, type: 3}
   maincam_quad: {fileID: 356707272}
   maincam_evening: {fileID: 2100000, guid: f0e0e6d049e9dcb4a84d7d8f7d8a1d96, type: 2}
-  loop: 0
+  loop: 1
 --- !u!1 &1939465131
 GameObject:
   m_ObjectHideFlags: 0
@@ -56390,6 +56390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Audio Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326583506553849042, guid: 4c3033a21041b9540b7eb2407e720d97,
+        type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c3033a21041b9540b7eb2407e720d97, type: 3}

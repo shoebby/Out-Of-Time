@@ -32564,7 +32564,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -39301,10 +39301,7 @@ MonoBehaviour:
   startLog: '"could not initialize ''mousegirl.prefab'' at target transform, initializing
     at nearest safe Y-coordinate"'
   logBackground: {fileID: 2800000, guid: a66ebf6d9f60b264fa920ca24cf8e69f, type: 3}
-  log_ypos: 585
-  log_height: 31
   logFont: {fileID: 12800000, guid: 316ab14a76d443244bb7a0c34e1b296a, type: 3}
-  fontSize: 12
 --- !u!4 &1595756114
 Transform:
   m_ObjectHideFlags: 0
@@ -39637,7 +39634,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-466068
+  m_Name: pb_Mesh428982
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -49791,6 +49788,7 @@ MonoBehaviour:
   eveningSong: {fileID: 8300000, guid: 2c51462b6a74b05458f843a447526959, type: 3}
   maincam_quad: {fileID: 356707272}
   maincam_evening: {fileID: 2100000, guid: f0e0e6d049e9dcb4a84d7d8f7d8a1d96, type: 2}
+  loop: 1
 --- !u!1 &1939465131
 GameObject:
   m_ObjectHideFlags: 0
