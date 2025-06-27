@@ -30,7 +30,8 @@ public class PlayerScript : Singleton<PlayerScript>
     {
         if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+            SceneManager.LoadScene(0);
         #region Movement
 
         if (canMove)

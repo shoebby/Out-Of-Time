@@ -48041,7 +48041,7 @@ MonoBehaviour:
   officeSounds: {fileID: 8300000, guid: 0f94b169287f5b749800a1e853203cfe, type: 3}
   eveningSong: {fileID: 8300000, guid: 441e0a7f2616a6047b564fcaad577d79, type: 3}
   maincam_quad: {fileID: 356707272}
-  maincam_evening: {fileID: 2100000, guid: f0e0e6d049e9dcb4a84d7d8f7d8a1d96, type: 2}
+  maincam_evening: {fileID: 2100000, guid: 2f314e8e57f0c7148be617354fb07534, type: 2}
   loop: 0
 --- !u!1 &1939465131
 GameObject:
