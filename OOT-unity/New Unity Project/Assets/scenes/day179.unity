@@ -12091,6 +12091,81 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1001 &345950453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_Name
+      value: RandomBugger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dba712f5cabb23141a33b96c90d6ff79, type: 3}
+--- !u!1 &345950454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+    type: 3}
+  m_PrefabInstance: {fileID: 345950453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &346781599
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,7 +14006,7 @@ GameObject:
   - component: {fileID: 356707271}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: CamQuad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35173,6 +35248,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 345950454}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1468621330
 GameObject:
   m_ObjectHideFlags: 0
@@ -37651,9 +37737,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2178379c04a8ae3458a843a4f86b1c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  qsize: 1
   startLog: '''mousegirl.fbx'' corrupted while loading'
   logBackground: {fileID: 2800000, guid: a66ebf6d9f60b264fa920ca24cf8e69f, type: 3}
   logFont: {fileID: 12800000, guid: 316ab14a76d443244bb7a0c34e1b296a, type: 3}
+  log_ypos: 1030
+  log_height: 50
 --- !u!4 &1595756114
 Transform:
   m_ObjectHideFlags: 0
@@ -40348,6 +40437,7 @@ MonoBehaviour:
   interactionPrompt: {fileID: 641304924}
   interactionPrompt_text: {fileID: 1395864892}
   eyesAnim: {fileID: 0}
+  currentTaskTMP: {fileID: 0}
 --- !u!1 &1718048045
 GameObject:
   m_ObjectHideFlags: 0
@@ -52220,7 +52310,7 @@ GameObject:
   - component: {fileID: 8016497611636399402}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: PlayerBodySMR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

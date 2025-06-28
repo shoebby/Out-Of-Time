@@ -2069,6 +2069,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &46873687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_Name
+      value: RandomBugger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dba712f5cabb23141a33b96c90d6ff79, type: 3}
+--- !u!1 &46873688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+    type: 3}
+  m_PrefabInstance: {fileID: 46873687}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &54665298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,7 +2180,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74646
+  m_Name: pb_Mesh108860
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2601,7 +2676,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Go to bed.
+          m_StringArgument: G t bd.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -2621,7 +2696,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74258
+  m_Name: pb_Mesh108474
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8388,7 +8463,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74524
+  m_Name: pb_Mesh108738
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8796,7 +8871,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74786
+  m_Name: pb_Mesh109000
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9193,7 +9268,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74390
+  m_Name: pb_Mesh108604
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11147,7 +11222,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Take your meds.
+          m_StringArgument: Tk yr mds.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -12874,7 +12949,7 @@ GameObject:
   - component: {fileID: 356707271}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: CamQuad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13146,7 +13221,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74922
+  m_Name: pb_Mesh109136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22226,7 +22301,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74722
+  m_Name: pb_Mesh108936
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22471,7 +22546,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Get dressed.
+          m_StringArgument: Gt drssd.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -22567,7 +22642,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74280
+  m_Name: pb_Mesh108496
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24560,7 +24635,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74210
+  m_Name: pb_Mesh108426
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24805,7 +24880,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Take a shower.
+          m_StringArgument: Tk  shwr.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -25077,7 +25152,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Eat breakfast.
+          m_StringArgument: t brkfst.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -25097,7 +25172,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74834
+  m_Name: pb_Mesh109048
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25342,7 +25417,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Wash your face.
+          m_StringArgument: Wsh yr fc.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -25587,7 +25662,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Go to work.
+          m_StringArgument: G t wrk.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -25610,7 +25685,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74512
+  m_Name: pb_Mesh108726
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34953,7 +35028,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74812
+  m_Name: pb_Mesh109026
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37309,7 +37384,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74734
+  m_Name: pb_Mesh108948
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40533,7 +40608,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74946
+  m_Name: pb_Mesh109160
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -40872,7 +40947,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74964
+  m_Name: pb_Mesh109178
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41087,8 +41162,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: '[E] Do A Thing'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 53675abb8359e7743a8e17dff5b961fb, type: 2}
+  m_sharedMaterial: {fileID: -4385752171112253674, guid: 53675abb8359e7743a8e17dff5b961fb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41119,7 +41195,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -41128,7 +41204,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -41886,7 +41962,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74246
+  m_Name: pb_Mesh108462
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42144,7 +42220,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74692
+  m_Name: pb_Mesh108906
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42412,12 +42488,23 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Take your meds.
+          m_StringArgument: Tk yr mds.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
         m_MethodName: NextTask
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 46873688}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -43380,7 +43467,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Brush your teeth.
+          m_StringArgument: Brsh yr tth.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -44622,7 +44709,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74606
+  m_Name: pb_Mesh108820
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45193,7 +45280,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74570
+  m_Name: pb_Mesh108784
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -46527,7 +46614,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74152
+  m_Name: pb_Mesh108368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47281,7 +47368,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74772
+  m_Name: pb_Mesh108986
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47554,7 +47641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionPrompt: {fileID: 641304924}
   interactionPrompt_text: {fileID: 1395864892}
-  eyesAnim: {fileID: 0}
+  eyesAnim: {fileID: 934065343}
+  currentTaskTMP: {fileID: 1840137671}
 --- !u!1 &1718048045
 GameObject:
   m_ObjectHideFlags: 0
@@ -52438,7 +52526,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Brush your teeth.
+          m_StringArgument: Brsh yr tth.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -52492,7 +52580,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74594
+  m_Name: pb_Mesh108808
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52655,7 +52743,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74758
+  m_Name: pb_Mesh108972
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52963,34 +53051,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- Get up
-
-    - Brush teeth
-
-    - Wash Face
-
-    - Take Meds
-
-    - Breakfast
-
-    -
-    Get Dressed
-
-    - Go To Work
-
-    - Dinner
-
-    - Shower
-
-    - Brush Teeth
-
-    -
-    Take Meds
-
-    - Go To Bed'
+  m_text: Tk yr mds
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 53675abb8359e7743a8e17dff5b961fb, type: 2}
+  m_sharedMaterial: {fileID: -4385752171112253674, guid: 53675abb8359e7743a8e17dff5b961fb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53014,8 +53079,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -53030,7 +53095,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -53070,7 +53135,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74548
+  m_Name: pb_Mesh108762
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -55119,7 +55184,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Eat dinner.
+          m_StringArgument: t dnnr.
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1939465133}
@@ -56389,7 +56454,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74324
+  m_Name: pb_Mesh108540
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -56552,7 +56617,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh74894
+  m_Name: pb_Mesh109108
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -59366,7 +59431,7 @@ GameObject:
   - component: {fileID: 8016497611636399402}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: PlayerBodySMR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

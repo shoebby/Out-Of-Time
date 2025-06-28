@@ -8382,6 +8382,81 @@ Transform:
   m_Father: {fileID: 2018201239}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &200504724
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_Name
+      value: RandomBugger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880851037564140743, guid: dba712f5cabb23141a33b96c90d6ff79,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dba712f5cabb23141a33b96c90d6ff79, type: 3}
+--- !u!1 &200504725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3880851037564140737, guid: dba712f5cabb23141a33b96c90d6ff79,
+    type: 3}
+  m_PrefabInstance: {fileID: 200504724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &216532609
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,7 +14006,7 @@ GameObject:
   - component: {fileID: 356707271}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: CamQuad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18514,8 +18589,8 @@ Transform:
   m_LocalPosition: {x: 8.951, y: 3.353, z: -9.973}
   m_LocalScale: {x: 0.20885, y: 0.20885, z: 0.20885}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 2018201239}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 3.647}
 --- !u!1 &781587615
 GameObject:
@@ -35632,10 +35707,10 @@ Transform:
   m_GameObject: {fileID: 1416067178}
   m_LocalRotation: {x: 0.011063712, y: 0.70702016, z: 0.011063712, w: 0.7070204}
   m_LocalPosition: {x: 8.978, y: 3.286, z: -2.947}
-  m_LocalScale: {x: 0.23367, y: 0.23367, z: 0.23367}
+  m_LocalScale: {x: 0.23367, y: 0.23367001, z: 0.23367001}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 2018201239}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 1.7930001}
 --- !u!1 &1417814747
 GameObject:
@@ -36812,6 +36887,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1939465133}
         m_MethodName: NextTask
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 200504725}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -39298,10 +39384,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2178379c04a8ae3458a843a4f86b1c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  qsize: 999
   startLog: '"could not initialize ''mousegirl.prefab'' at target transform, initializing
     at nearest safe Y-coordinate"'
-  logBackground: {fileID: 2800000, guid: a66ebf6d9f60b264fa920ca24cf8e69f, type: 3}
+  logBackground: {fileID: 0}
   logFont: {fileID: 12800000, guid: 316ab14a76d443244bb7a0c34e1b296a, type: 3}
+  log_ypos: 0
+  log_height: 1080
 --- !u!4 &1595756114
 Transform:
   m_ObjectHideFlags: 0
@@ -42159,6 +42248,7 @@ MonoBehaviour:
   interactionPrompt: {fileID: 641304924}
   interactionPrompt_text: {fileID: 1395864892}
   eyesAnim: {fileID: 0}
+  currentTaskTMP: {fileID: 0}
 --- !u!1 &1718048045
 GameObject:
   m_ObjectHideFlags: 0
@@ -50613,6 +50703,9 @@ Transform:
   - {fileID: 334046690}
   - {fileID: 2050352124}
   - {fileID: 325309443}
+  - {fileID: 2085490080}
+  - {fileID: 773599502}
+  - {fileID: 1416067180}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -51499,10 +51592,10 @@ Transform:
   m_GameObject: {fileID: 2085490078}
   m_LocalRotation: {x: 0.062014434, y: 0.7043819, z: 0.062014475, w: 0.7043824}
   m_LocalPosition: {x: 8.983, y: 2.75, z: -7.44}
-  m_LocalScale: {x: 0.61499, y: 0.61499, z: 0.61499}
+  m_LocalScale: {x: 0.61499, y: 0.61499006, z: 0.61499}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 2018201239}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 10.063001}
 --- !u!1 &2127126524
 GameObject:
@@ -52218,7 +52311,7 @@ GameObject:
   - component: {fileID: 8016497611636399402}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: PlayerBodySMR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

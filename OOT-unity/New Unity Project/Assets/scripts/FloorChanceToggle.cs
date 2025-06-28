@@ -59,6 +59,13 @@ public class FloorChanceToggle : MonoBehaviour
                 Debug.LogError("E> you're the only one who could make it E>");
                 yield return new WaitForSeconds(.5f);
             }
+            for (int i = 0; i < 8; i++)
+            {
+                Debug.LogError("<3 press [ESC] to go back to the main menu, when you're done! <3");
+                yield return new WaitForSeconds(.5f);
+                Debug.LogError("E> press [ESC] to go back to the main menu, when you're done! E>");
+                yield return new WaitForSeconds(.5f);
+            }
         }
     }
 

@@ -14,6 +14,7 @@ public class EventsManager : Singleton<EventsManager>
     protected override void Awake()
     {
         base.Awake();
+
         for (int i = 0; i < volumes.Length; i++)
             volumes[i].SetActive(false);
 

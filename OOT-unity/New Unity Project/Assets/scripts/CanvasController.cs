@@ -6,12 +6,12 @@ public class CanvasController : Singleton<CanvasController>
     public GameObject interactionPrompt;
     public TextMeshProUGUI interactionPrompt_text;
     public Animator eyesAnim;
+    public TextMeshProUGUI currentTaskTMP;
 
     protected override void Awake()
     {
         base.Awake();
         interactionPrompt.SetActive(false);
-        eyesAnim = GetComponentInChildren<Animator>();
     }
 
     public void ToggleElement(GameObject el)
