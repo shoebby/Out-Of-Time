@@ -28,7 +28,7 @@ public class RandomBugger : Singleton<RandomBugger>
 
     private void ResetTimer()
     {
-        timer_max = Random.Range(5, 20);
+        timer_max = Random.Range(60,121);
         timer_current = timer_max;
     }
 

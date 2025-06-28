@@ -12,6 +12,7 @@ public class CanvasController : Singleton<CanvasController>
     {
         base.Awake();
         interactionPrompt.SetActive(false);
+        eyesAnim = GetComponentInChildren<Animator>();
     }
 
     public void ToggleElement(GameObject el)
